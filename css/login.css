@@ -1,0 +1,108 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; /* tamaño estable de la caja*/
+}
+/*body{
+    display:block;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif; 
+    background-color: blueviolet;
+    
+}*/
+
+.form-login{
+    
+    width: 400px;
+    min-width: 300px;
+    border-radius: 10px;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px; /*parte inferiior de un elemento */
+    margin: 10px;
+    border: solid 1px palevioletred;
+    background-color: plum;
+
+}
+.form-login img{
+    width: 150px;
+    display: block;
+    margin: 20px auto;
+
+   
+}
+h2{
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    color: rgb(179, 8, 170);
+    margin-bottom: 25px;
+}
+.form-login input{
+    display: block;
+    margin: auto;
+    padding-left: 10px;
+    height: 40px;
+    width: 75%;
+    color: rgb(8, 0, 2);
+    border: 1px solid white;
+    border-radius: 2px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: transparent;
+    
+    
+    font-size: 16px;
+    outline: none;
+}
+.form-login input[type="password"]{
+    margin-top: 20px;
+
+}
+::placeholder{
+    font-size: 16px;
+    color: rebeccapurple;
+}
+.form-login input:hover {
+    transition: .5s;
+    border: 1px solid palevioletred;
+}
+.form-login button{
+    display: block;
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 35px;
+    height: 35px;
+    width: 80%;
+    background: transparent;
+    cursor: pointer;
+    outline: none;
+    transition: all .5s ease;
+    border: 2px solid rgb(173, 8, 110);
+}
+.form-login button:hover {
+    color: aliceblue;
+    border: 2px solid yellow;
+    background-color: blueviolet;
+
+}
+/* registro*/
+
+.registro button{
+    display: block;
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 35px;
+    height: 35px;
+    width: 80%;
+    background: transparent;
+    cursor: pointer;
+    outline: none;
+    transition: all .5s ease;
+    border: 2px solid rgb(173, 8, 110);
+}
+.registro button:hover{
+    color: aliceblue;
+    border: 2px solid yellow;
+    background-color: blueviolet;
+}
