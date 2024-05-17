@@ -3,26 +3,22 @@
     margin: 0;
     box-sizing: border-box; /* tamaño estable de la caja*/
 }
-/*body{
-    display:block;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    font-family: Arial, Helvetica, sans-serif; 
-    background-color: blueviolet;
-    
-}*/
+
 
 .form-login{
-    
-    width: 400px;
-    min-width: 300px;
-    border-radius: 10px;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-49%, -49%);
+    border-radius: 40px;
     border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
     border-bottom-right-radius: 50px; /*parte inferiior de un elemento */
-    margin: 10px;
-    border: solid 1px palevioletred;
-    background-color: plum;
+   
+    
+    background-color: #66d1c5;
+
 
 }
 .form-login img{
@@ -40,6 +36,7 @@ h2{
     margin-bottom: 25px;
 }
 .form-login input{
+    
     display: block;
     margin: auto;
     padding-left: 10px;
@@ -48,7 +45,7 @@ h2{
     color: rgb(8, 0, 2);
     border: 1px solid white;
     border-radius: 2px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Verdana, Tahoma, sans-serif;
     background-color: transparent;
     
     
@@ -78,12 +75,12 @@ h2{
     cursor: pointer;
     outline: none;
     transition: all .5s ease;
-    border: 2px solid rgb(173, 8, 110);
+    border: 2px solid #ad086e;
 }
 .form-login button:hover {
     color: aliceblue;
-    border: 2px solid yellow;
-    background-color: blueviolet;
+    border: 2px solid #24a19c;;
+    background-color: #24a19c;
 
 }
 /* registro*/
@@ -99,10 +96,20 @@ h2{
     cursor: pointer;
     outline: none;
     transition: all .5s ease;
-    border: 2px solid rgb(173, 8, 110);
+    border: 2px solid #ad086e;
 }
 .registro button:hover{
     color: aliceblue;
     border: 2px solid yellow;
     background-color: blueviolet;
+}
+footer
+{
+  
+    margin-top: auto;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 30px;
+    background-color: #6ebfb5;
 }

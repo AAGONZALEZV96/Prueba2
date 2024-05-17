@@ -1,0 +1,78 @@
+body{
+    background-color: #be53be70;
+}
+.navbarbrand{
+    background-color: pink;
+
+
+}
+.navbar a{
+
+    color: #000000;
+    font-weight: 600;
+    font-size: 18px;
+}
+h1{
+    text-align: center;
+    color: rgb(179, 8, 170);
+}
+.inputText input{
+    display: block;
+    
+    padding-left: 10px;
+    height: 40px;
+    
+    color: rgb(8, 0, 2);
+    
+   
+    font-family: Verdana, Tahoma, sans-serif;
+    background-color:transparent;
+    font-size: 16px;
+    outline: none;
+}
+.inputText input[type="pasword"]{
+    margin-top: 20px;
+}
+::placeholder{
+    font-size: 16px;
+    color: rebeccapurple;
+}
+.inputText input:hover {
+    transition: .5s;
+    border: 1px solid rgba(216, 112, 147, 0.952);
+}
+
+
+.btncuenta{
+    display: block;
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 35px;
+    height: 35px;
+    width: 80%;
+    background: transparent;
+    cursor: pointer;
+    outline: none;
+    transition: all .5s ease;
+    border: 2px solid #ad086e;
+    text-align: center;
+
+
+}
+.btncuenta:hover{
+   
+    color: aliceblue;
+    border: 2px solid #6ebfb5;
+    background-color: #24a19c;
+}
+
+footer
+{
+  
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 40px;
+  background-color: #fa8bde;
+  height: auto;
+}
